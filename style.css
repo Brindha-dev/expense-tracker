@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form input {
+    width: calc(100% - 20px);
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    background: #1d3557;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background: #457b9d;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #2a9d8f;
+  }
+  
+  #expenseList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #expenseList li {
+    background: #e0f7fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
